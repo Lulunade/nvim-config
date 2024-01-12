@@ -4,5 +4,6 @@
 -- See the kickstart.nvim README for more information
 return {
   'tpope/vim-surround',
-  'mfussenegger/nvim-jdtls'
+  'mfussenegger/nvim-jdtls',
+  'christoomey/vim-tmux-navigator'
 }
