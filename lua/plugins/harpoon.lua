@@ -18,6 +18,11 @@ return {
       -- Toggle previous & next buffers stored within Harpoon list
       vim.keymap.set("n", "<leader>j", function() harpoon:list():prev() end)
       vim.keymap.set("n", "<leader>k", function() harpoon:list():next() end)
+
+      require('which-key').register {
+        ['<leader>j'] = { name = 'Harpoon: Next', _ = 'which_key_ignore' },
+        ['<leader>k'] = { name = 'Harpoon: Previous', _ = 'which_key_ignore' },
+      }
     end
   }
 }

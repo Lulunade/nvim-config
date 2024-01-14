@@ -12,9 +12,6 @@ return {
       ['<leader>s'] = { name = '[S]earch', _ = 'which_key_ignore' },
       ['<leader>t'] = { name = '[T]oggle', _ = 'which_key_ignore' },
       ['<leader>w'] = { name = '[W]orkspace', _ = 'which_key_ignore' },
-
-      ['<leader>j'] = { name = 'Harpoon: Next', _ = 'which_key_ignore' },
-      ['<leader>k'] = { name = 'Harpoon: Previous', _ = 'which_key_ignore' },
     }
   end
 }
