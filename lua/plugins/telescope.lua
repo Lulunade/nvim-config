@@ -17,7 +17,7 @@ return {
       end,
     },
   },
-  requires = function()
+  config = function()
     require('telescope').setup {
       defaults = {
         mappings = {
@@ -67,6 +67,7 @@ return {
     end
 
     vim.api.nvim_create_user_command('LiveGrepGitRoot', live_grep_git_root, {})
+    print('foo bar baz')
 
     -- See `:help telescope.builtin`
     vim.keymap.set('n', '<leader>?', require('telescope.builtin').oldfiles, { desc = '[?] Find recently opened files' })

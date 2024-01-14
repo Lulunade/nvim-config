@@ -25,5 +25,5 @@ return {
   'theprimeagen/vim-be-good',
 
   -- Detect tabstop and shiftwidth automatically
-  'tpope/vim-sleuth',
+  'tpope/vim-sleuth'
 }
